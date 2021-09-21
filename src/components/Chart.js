@@ -8,12 +8,12 @@ import {
   YAxis,
   Label,
   ResponsiveContainer,
-  Tooltip,
+  Tooltip
 } from "recharts";
 
 // Generate Sales Data
-function createData(time, amount, time2, amount2) {
-  return { time, amount, time2, amount2 };
+function createData(time, amount,time2, amount2) {
+  return { time, amount,time2, amount2 };
 }
 
 const data = [
